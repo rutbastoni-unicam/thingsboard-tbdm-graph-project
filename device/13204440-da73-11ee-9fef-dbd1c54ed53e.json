@@ -1,0 +1,137 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : true,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "4f110480-e280-11ed-bed2-eb5dc11e7238"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "13204440-da73-11ee-9fef-dbd1c54ed53e"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "13204440-da73-11ee-9fef-dbd1c54ed53e"
+    },
+    "label" : "Reply GW IIoT",
+    "name" : "GW_IIOT",
+    "softwareId" : null,
+    "type" : "default"
+  },
+  "credentials" : {
+    "credentialsId" : "REPLY_GW_DATA",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "068af390-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "13204440-da73-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "13204440-da73-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "0bf21dd0-dad5-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "13204440-da73-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "2ca79dd0-dbb5-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "13204440-da73-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "44465480-da76-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1715959337382,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1715959337382,
+      "longValue" : 1715959337364,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1715803350252,
+      "longValue" : 1715803348960,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1715745728636,
+      "longValue" : 1715745728636,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1715745727582,
+      "longValue" : 1715745727582,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

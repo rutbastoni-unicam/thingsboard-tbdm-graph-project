@@ -1,0 +1,131 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "073330e0-e369-11ed-96c2-219d8367bceb"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "bc96cfd0-e5cd-11ed-9c37-3978a44a05d7"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "059e2b40-e5d5-11ed-9c37-3978a44a05d7"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "ea744e50-e36b-11ed-96c2-219d8367bceb"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "ea744e50-e36b-11ed-96c2-219d8367bceb"
+    },
+    "label" : null,
+    "name" : "presence_jzp://edv#0f42.0000",
+    "softwareId" : null,
+    "type" : "PIR"
+  },
+  "credentials" : {
+    "credentialsId" : "le85fkfNRClfFmJAHUQy",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "073330e0-e369-11ed-96c2-219d8367bceb"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "ea744e50-e36b-11ed-96c2-219d8367bceb"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1715958691086,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "image",
+      "lastUpdateTs" : 1709295925406,
+      "longValue" : null,
+      "strValue" : "https://github.com/MrEntity303/ImgPoli/blob/main/immagini%202D%20polo%20A/PIR.png?raw=true"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1709575021443,
+      "longValue" : 1709575021443,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1709574363574,
+      "longValue" : 1709574363574,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1709574363574,
+      "longValue" : 1709574363574,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1709574363574,
+      "longValue" : 1709574363574,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "model",
+      "lastUpdateTs" : 1709134970606,
+      "longValue" : null,
+      "strValue" : "https://raw.githubusercontent.com/MrEntity303/ImgPoli/main/Modelli%203D/PIR%20Sensor.glb"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.2530291366464259,
+      "jsonValue" : null,
+      "key" : "xPosition",
+      "lastUpdateTs" : 1709123965845,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.3276142051512669,
+      "jsonValue" : null,
+      "key" : "yPosition",
+      "lastUpdateTs" : 1709123965845,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "13204440-da73-11ee-9fef-dbd1c54ed53e"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "bc96cfd0-e5cd-11ed-9c37-3978a44a05d7"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "ee726010-e662-11ed-9c37-3978a44a05d7"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "b43d3770-e36b-11ed-96c2-219d8367bceb"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "b43d3770-e36b-11ed-96c2-219d8367bceb"
+    },
+    "label" : null,
+    "name" : "coordinator_jzp://coo#ffffffff00000fff.0000",
+    "softwareId" : null,
+    "type" : "Dongle"
+  },
+  "credentials" : {
+    "credentialsId" : "DJa3CavZfO5e0BlIm2XJ",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "073330e0-e369-11ed-96c2-219d8367bceb"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "b43d3770-e36b-11ed-96c2-219d8367bceb"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1715959337366,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1715959337365,
+      "longValue" : 1715959337364,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1715803305241,
+      "longValue" : 1715803304722,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1715803244286,
+      "longValue" : 1715803244286,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1715803304739,
+      "longValue" : 1715803304739,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "model",
+      "lastUpdateTs" : 1682754858608,
+      "longValue" : null,
+      "strValue" : "https://raw.githubusercontent.com/Matteo099/blender-models/main/SAFE/gltf/Dongle.glb"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

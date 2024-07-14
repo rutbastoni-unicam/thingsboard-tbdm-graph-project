@@ -1,0 +1,97 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "bc96cfd0-e5cd-11ed-9c37-3978a44a05d7"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "421a61d0-1f3f-11ee-81c2-7319136e5604"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "0e1350c0-19a1-11ee-95b8-b71bbf0977f6"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "0e1350c0-19a1-11ee-95b8-b71bbf0977f6"
+    },
+    "label" : "",
+    "name" : "presence_jzp://edv#0f42.0000_simulated",
+    "softwareId" : null,
+    "type" : "SImulated PIR"
+  },
+  "credentials" : {
+    "credentialsId" : "3vUOXRTDgBN0wsaW3CUZ",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1715958690582,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1688389635016,
+      "longValue" : 1688389635016,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "model",
+      "lastUpdateTs" : 1709134962182,
+      "longValue" : null,
+      "strValue" : "https://raw.githubusercontent.com/MrEntity303/ImgPoli/main/Modelli%203D/PIR%20Sensor.glb"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.2172098241377956,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1708441049019,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.6776996071105424,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1708441049019,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "simulation",
+      "lastUpdateTs" : 1711635918094,
+      "longValue" : null,
+      "strValue" : "running"
+    } ]
+  }
+}
