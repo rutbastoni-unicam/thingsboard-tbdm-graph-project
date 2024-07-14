@@ -36,31 +36,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON"
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "ASSET",
-      "id" : "26f52ba0-d237-11ee-9fef-dbd1c54ed53e"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "ad397c90-ff26-11ee-97ac-87c8bfbd2434"
-    },
-    "type" : "Contains",
-    "typeGroup" : "COMMON"
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "ASSET",
-      "id" : "26f52ba0-d237-11ee-9fef-dbd1c54ed53e"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "c0c89290-12dc-11ef-8717-9f827560fb99"
-    },
-    "type" : "Contains",
-    "typeGroup" : "COMMON"
-  } ],
+  }],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : null,
