@@ -1,0 +1,79 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "4f24b390-e280-11ed-bed2-eb5dc11e7238"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "19ff6960-d197-11ee-9fef-dbd1c54ed53e"
+    },
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "19ff6960-d197-11ee-9fef-dbd1c54ed53e"
+    },
+    "label" : null,
+    "name" : "LB1",
+    "type" : "default"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "19ff6960-d197-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4ff17970-e280-11ed-bed2-eb5dc11e7238"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "22770480-cf2c-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "19ff6960-d197-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "image",
+      "lastUpdateTs" : 1708684568695,
+      "longValue" : null,
+      "strValue" : "https://github.com/MrEntity303/ImgPoli/blob/main/polo%20B/polo%20B/LB1.png?raw=true"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.5370910304495117,
+      "jsonValue" : null,
+      "key" : "xPosition",
+      "lastUpdateTs" : 1708615938371,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.335876625173085,
+      "jsonValue" : null,
+      "key" : "yPosition",
+      "lastUpdateTs" : 1708615938371,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

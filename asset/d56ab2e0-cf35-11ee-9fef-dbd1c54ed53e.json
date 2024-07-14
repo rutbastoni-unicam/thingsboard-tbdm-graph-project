@@ -1,0 +1,163 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "4f24b390-e280-11ed-bed2-eb5dc11e7238"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "d56ab2e0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "d56ab2e0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "label" : "Primo Piano Polo A",
+    "name" : "Primo Piano Polo A",
+    "type" : "default"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "d56ab2e0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "d8a95890-cf34-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "d56ab2e0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "e28a0850-cf34-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "d56ab2e0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "eb496990-cf34-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "d56ab2e0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "f747f040-cf34-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "d56ab2e0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "14547640-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "d56ab2e0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "1e1df480-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "d56ab2e0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "2d6c4270-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "d56ab2e0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "44c1ec40-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "7efbe630-cf13-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "d56ab2e0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "image",
+      "lastUpdateTs" : 1708526179864,
+      "longValue" : null,
+      "strValue" : "https://github.com/MrEntity303/ImgPoli/blob/main/immagini%202D%20polo%20A/poloA.png?raw=true"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.4885795825379429,
+      "jsonValue" : null,
+      "key" : "xPosition",
+      "lastUpdateTs" : 1709310208279,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.45772757620968024,
+      "jsonValue" : null,
+      "key" : "yPosition",
+      "lastUpdateTs" : 1709310208279,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

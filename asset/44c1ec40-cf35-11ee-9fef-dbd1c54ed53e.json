@@ -1,0 +1,83 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "4f24b390-e280-11ed-bed2-eb5dc11e7238"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "44c1ec40-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "44c1ec40-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "label" : "Aula Studio",
+    "name" : "Aula Studio",
+    "type" : "default"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "d56ab2e0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "44c1ec40-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "image",
+      "lastUpdateTs" : 1708526392636,
+      "longValue" : null,
+      "strValue" : "https://github.com/MrEntity303/ImgPoli/blob/main/immagini%202D%20polo%20A/aulaStudio.png?raw=true"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.06650361335439986,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1708423697945,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.07131468076376131,
+      "jsonValue" : null,
+      "key" : "xPosition",
+      "lastUpdateTs" : 1708606397021,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.12351640016102362,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1708423697945,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.15578954541799186,
+      "jsonValue" : null,
+      "key" : "yPosition",
+      "lastUpdateTs" : 1708606397021,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

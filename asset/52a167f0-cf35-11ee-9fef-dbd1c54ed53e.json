@@ -1,0 +1,83 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "4f24b390-e280-11ed-bed2-eb5dc11e7238"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "52a167f0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "52a167f0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "label" : "Atrio A",
+    "name" : "Atrio A",
+    "type" : "default"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "c9af4fb0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "52a167f0-cf35-11ee-9fef-dbd1c54ed53e"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "image",
+      "lastUpdateTs" : 1708526050535,
+      "longValue" : null,
+      "strValue" : "https://github.com/MrEntity303/ImgPoli/blob/main/immagini%202D%20polo%20A/Atrio.png?raw=true"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.531883341571923,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1708422682062,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.5226844285246408,
+      "jsonValue" : null,
+      "key" : "xPosition",
+      "lastUpdateTs" : 1708606244856,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.5009656804500108,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1708422682062,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.5100457106589943,
+      "jsonValue" : null,
+      "key" : "yPosition",
+      "lastUpdateTs" : 1708606244856,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}
