@@ -1,0 +1,79 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "4f24b390-e280-11ed-bed2-eb5dc11e7238"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "bc96cfd0-e5cd-11ed-9c37-3978a44a05d7"
+    },
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "fadbdab0-e28a-11ed-96c2-219d8367bceb"
+    },
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "fadbdab0-e28a-11ed-96c2-219d8367bceb"
+    },
+    "label" : "LB1",
+    "name" : "Room LB1",
+    "type" : "default"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "9392e380-c673-11ee-9fef-dbd1c54ed53e"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "fadbdab0-e28a-11ed-96c2-219d8367bceb"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fadbdab0-e28a-11ed-96c2-219d8367bceb"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "073330e0-e369-11ed-96c2-219d8367bceb"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : 43.13914393770414,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1708351977246,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 13.067690539766284,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1708351977246,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "model",
+      "lastUpdateTs" : 1682670869256,
+      "longValue" : null,
+      "strValue" : "https://raw.githubusercontent.com/Matteo099/blender-models/main/SAFE/gltf/LB1.glb"
+    } ]
+  }
+}
